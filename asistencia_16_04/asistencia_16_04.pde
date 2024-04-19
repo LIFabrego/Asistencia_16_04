@@ -19,3 +19,6 @@ public void draw(){
   noTint();
   dragon.dibujar();
 }
+public void mouseMoved(){
+  dragon.mover();
+}

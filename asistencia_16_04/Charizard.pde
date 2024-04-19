@@ -17,5 +17,8 @@ class Charizard{
   public void setPosicion(PVector posicion){
     this.posicion=posicion;
   }
-  
+  public void mover(){
+    this.posicion.x=mouseX;
+    this.posicion.y=mouseY;
+  }
 }
